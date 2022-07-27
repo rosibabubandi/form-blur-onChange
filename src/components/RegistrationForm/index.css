@@ -1,0 +1,127 @@
+.registration-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+}
+.form-heading {
+  font-family: 'Roboto';
+  color: #ea580c;
+}
+.form-container {
+  height: 500px;
+  width: 350px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 20px;
+}
+.label-text {
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 20px;
+}
+.input-element {
+  height: 40px;
+  width: 60%;
+  padding: 15px;
+  font-family: 'Roboto';
+  color: #92a6bb;
+  background-color: inherit;
+  border: 1px solid #92a6bb;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.submit-button {
+  background-color: #ea580c;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  height: 40px;
+  width: 60%;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+.login-success-container {
+  height: 300px;
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.required-text {
+  font-family: 'Roboto';
+  color: #ff0b37;
+}
+
+.log-in-success-image {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 60px;
+}
+.get-form-button {
+  background-color: #ea580c;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  height: 35px;
+  width: 70%;
+  font-family: 'Roboto';
+}
+.successful-text {
+  font-family: 'Roboto';
+  color: #475569;
+  margin: 5px;
+}
+
+@media screen and (min-width: 767px) {
+  .form-heading {
+    font-family: 'Roboto';
+    color: #ea580c;
+    font-size: 50px;
+  }
+  .form-container {
+    height: 400px;
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .login-success-container {
+    height: 400px;
+    width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+  }
+  .successful-text {
+    font-family: 'Roboto';
+    color: #475569;
+    margin: 10px;
+  }
+}
